@@ -6,7 +6,7 @@ To reproduce:
 
 ```bash
 bundle install
-pry
+bundle exec pry
 ```
 
 Within pry:

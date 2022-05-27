@@ -3,13 +3,18 @@ GEM
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    coderay (1.1.3)
     faraday (2.3.0)
       faraday-net_http (~> 2.0)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (2.0.3)
+    method_source (1.0.0)
     octokit (4.23.0)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
+    pry (0.14.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
     public_suffix (4.0.7)
     ruby2_keywords (0.0.5)
     sawyer (0.9.1)
@@ -21,6 +26,7 @@ PLATFORMS
 
 DEPENDENCIES
   octokit (~> 4.23)
+  pry
 
 RUBY VERSION
    ruby 3.1.2p20
